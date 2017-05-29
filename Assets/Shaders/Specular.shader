@@ -89,13 +89,11 @@
 				fixed3 tangentNormal = UnpackScaleNormal(tex2D(_BumpMap, i.uv2), _BumpScale);
 
 				fixed3 albedo = tex2D(_MainTex, i.uv).rgb * _Color.rgb;
-
-
-
 			  	fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz * albedo;			  	
 
 
-				fixed3 diffuse = _LightColor0.rgb * (max(0, dot(tangentNormal, tangentLightDir) * 0.5 + 0.5));
+				fixed3 diffuse = _LightColor0.rgb * albedo * 
+				max(0, dot(tangentNormal, tangentLightDir) * 0.5 + 0.5);
 
 				half rimStrength = 1.0 - max(0.0, dot(tangentViewDir, tangentNormal));
 				fixed3 rim = _RimMultiplier * _RimColor.rgb * pow(rimStrength, _RimPower) * _RimColor.a;
