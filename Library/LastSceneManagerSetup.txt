@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Shadertoy/Scenes/NoiseWaters.unity
+- path: Assets/Shadertoy/Scenes/Flame.unity
   isLoaded: 1
   isActive: 1

@@ -104,7 +104,10 @@
     <None Include="Assets\Bloom\Bloom.shader" />
     <None Include="Assets\Shaders\Diffuse.shader" />
     <None Include="Assets\Shaders\Specular.shader" />
+    <None Include="Assets\Shadertoy\Shaders\Flame.shader" />
     <None Include="Assets\Shadertoy\Shaders\NoiseWaters.shader" />
+    <None Include="Assets\Shadertoy\Shaders\Seascape.shader" />
+    <None Include="Assets\Shadertoy\Shaders\Wave.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
