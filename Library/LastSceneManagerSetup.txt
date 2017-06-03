@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Shadertoy/Scenes/Flame.unity
+- path: Assets/Shadertoy/Scenes/RayMarching.unity
   isLoaded: 1
   isActive: 1

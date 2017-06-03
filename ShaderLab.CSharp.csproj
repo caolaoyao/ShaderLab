@@ -70,6 +70,7 @@
     <None Include="Assets\Shaders\Specular.shader" />
     <None Include="Assets\Shadertoy\Shaders\Flame.shader" />
     <None Include="Assets\Shadertoy\Shaders\NoiseWaters.shader" />
+    <None Include="Assets\Shadertoy\Shaders\RayMarching.shader" />
     <None Include="Assets\Shadertoy\Shaders\Seascape.shader" />
     <None Include="Assets\Shadertoy\Shaders\Wave.shader" />
   </ItemGroup>
