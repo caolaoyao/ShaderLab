@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Bloom/Bloom.unity
+- path: Assets/Shadertoy/Scenes/NoiseWaters.unity
   isLoaded: 1
   isActive: 1
